@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Lora");
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  font-family: 'Lora', serif;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  text-align: center;
+  padding: 10px;
+}
+.errorDiv {
+  background-color: rgb(224, 169, 164);
+  border: 1px solid rgb(172, 115, 110);
+  padding: 5px;
+}
+.imgLogo {
+  max-width: 50px;
+  max-height: 50px;
+}
+.mainDiv {
+  box-shadow: 2px 2px 7px rgb(136, 139, 137);
+  padding: 30px 30px 30px 30px;
+  border-radius: 10px;
+  /*margin-bottom: 40px;*/
+}
+.myHeader {
+  padding: 20px 20px 20px 20px;
+  background-color: rgb(88, 44, 153);
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.onlineDiv {
+  background-color: rgb(163, 224, 191);
+  border: 1px solid rgb(102, 168, 132);
+  padding: 5px;
+}
+.offlineDiv {
+  background-color: rgb(172, 170, 170);
+  border: 1px solid rgb(112, 109, 109);
+  padding: 5px;
+}
+.toggleOnline {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.dispName {
+  font-size: 20px;
+}
+.radioAll {
+  padding: 2px 2px 2px 2px;
+  border-radius: 5px;
+}
+.radioOnline {
+  background-color: rgb(163, 224, 191);
+  padding: 2px 2px 2px 2px;
+  border-radius: 5px;
+}
+.radioOffline {
+  background-color: rgb(172, 170, 170);
+  padding: 2px 2px 2px 2px;
+  border-radius: 5px;
+}
+.message {
+  text-align: right;
+}
